@@ -97,9 +97,13 @@ export const Hero: React.FC = () => {
               {/* Studio photography visual asset */}
               <div className="relative aspect-[16/10] sm:aspect-[4/3] w-full overflow-hidden bg-slate-950">
                 <img
-                  src="/src/assets/images/hero_tech_agency_1794393712568.jpg"
+                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80"
                   alt="Swatty Tech Ghana engineering studio in Accra"
                   referrerPolicy="no-referrer"
+                  onError={(e) => {
+                    // Fallback to secondary high-availability tech workspace image
+                    (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80';
+                  }}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0b1120] via-slate-900/40 to-transparent" />

@@ -135,7 +135,7 @@ export const PORTFOLIO_PROJECTS: PortfolioItem[] = [
     clientName: 'Adjei MoMo Agency',
     location: 'Madina & Spintex, Accra',
     description: 'Live network status tracker (MTN MoMo, Telecel Cash, AirtelTigo) with 1-tap WhatsApp agent booking.',
-    imageSrc: '/src/assets/images/portfolio_momo_hub_1794396531396.jpg',
+    imageSrc: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1000&q=80',
     highlightMetric: '99.4% Network uptime tracking · 420+ daily WhatsApp cash-out inquiries',
     turnaroundTime: 'Delivered in 48 Hours',
     features: [
@@ -163,7 +163,7 @@ export const PORTFOLIO_PROJECTS: PortfolioItem[] = [
     clientName: 'Ghana Data Express',
     location: 'Accra Digital Center, Accra',
     description: 'Instant mobile data top-up platform featuring non-expiry GHS packages and automated checkout.',
-    imageSrc: '/src/assets/images/portfolio_data_store_1794396533184.jpg',
+    imageSrc: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=1000&q=80',
     highlightMetric: '3,800+ non-expiry data orders delivered with instant Paystack checkout',
     turnaroundTime: 'Delivered in 48 Hours',
     features: [
@@ -191,7 +191,7 @@ export const PORTFOLIO_PROJECTS: PortfolioItem[] = [
     clientName: 'Swatty Tech Gadgets',
     location: 'Circle & East Legon, Accra',
     description: 'Modern e-commerce product catalog designed for fast browsing and direct device sales.',
-    imageSrc: '/src/assets/images/portfolio_laptop_biz_1794396532061.jpg',
+    imageSrc: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1000&q=80',
     highlightMetric: 'GH₵ 85,000+ monthly laptop sales driven through direct WhatsApp conversion',
     turnaroundTime: 'Delivered in 48 Hours',
     features: [
@@ -219,7 +219,7 @@ export const PORTFOLIO_PROJECTS: PortfolioItem[] = [
     clientName: 'MoMo Books Financial OS',
     location: 'Kaneshie Market & Osu, Accra',
     description: 'Comprehensive merchant dashboard tracking daily revenue, profits, active orders, and MoMo balances in GHS.',
-    imageSrc: '/src/assets/images/portfolio_momo_books_1794396534424.jpg',
+    imageSrc: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=80',
     highlightMetric: 'Zero ledger discrepancies across GH₵ 120,000+ in monthly merchant sales',
     turnaroundTime: 'Delivered in 48 Hours',
     features: [
@@ -247,7 +247,7 @@ export const PORTFOLIO_PROJECTS: PortfolioItem[] = [
     clientName: 'PulseFlow Operations Africa',
     location: 'Airport Residential & Ridge, Accra',
     description: 'High-converting modern SaaS landing page engineered for automated operational workflows.',
-    imageSrc: '/src/assets/images/portfolio_pulseflow_saas_1794396534280.jpg',
+    imageSrc: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000&q=80',
     highlightMetric: '3.4x increase in enterprise pilot sign-ups within 30 days',
     turnaroundTime: 'Delivered in 48 Hours',
     features: [
